@@ -123,14 +123,13 @@
 
 
 
-#### DEPLOY TO KOYEB
+## 🎇 `NEW DEPLOYMENT`
+NOW Deploy👇
+<br>
+## DEPLOY IN KOYEB    
+[![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/auth/signup)  
 
-1. if you don't have a koyeb account. Create an account.
-   <br>
-   <p align="center"><a href="https://app.koyeb.com/auth/signup"> <img src="https://img.shields.io/badge/Koyeb account-blue?style=for-the-badge&logo=koyeb" width="220" height="38.45"/></a></p>
-<div align="center">
 
-## _[Koyeb: How to deploy](https://github.com/Romeofaiz/ROMEK-XD-BOT/wiki/Deploying-with-Koyeb
 
    
 
