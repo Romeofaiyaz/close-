@@ -18,7 +18,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     console.log(response)
     const textt = response.result.reply;
     await typewriterEffect(conn,m, m.chat , textt);
-       
+
   } catch (error) {
     console.error(error);
     m.reply('Oops! Something went wrong. , we are trying had to fix it asap');
@@ -32,7 +32,7 @@ export default handler
 
 async function typewriterEffect(conn, quoted ,from, text) {
     let { key } = await conn.sendMessage(from, { text: 'Thinking...' } , {quoted:quoted})
-  
+
     for (let i = 0; i < text.length; i++) {
       const noobText = text.slice(0, i + 1);
       await conn.relayMessage(from, {
@@ -44,7 +44,7 @@ async function typewriterEffect(conn, quoted ,from, text) {
           }
         }
       }, {});
-   
+
        await delay(100); // Adjust the delay time (in milliseconds) as needed
     }
   }

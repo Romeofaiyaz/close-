@@ -20,11 +20,11 @@ let handler = async (m, { conn, text }) => {
         mimetype: 'audio/mpeg',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "XLICON.mp3",
+        fileName: "ROMEK.mp3",
     
         contextInfo: {
           mentionedJid: [m.sender],
-          externalAdReply: {
+          externalAdReply: {STAR-V2
             title: "↺ |◁   II   ▷|   ♡",
             body: `Now playing: ${text}`,
             thumbnailUrl: pp,

@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "", "Nih...", m);
+					conn.sendFile(m.chat, This, "", "> ミ★ 𝐑𝐎𝐌𝐄𝐊-𝐗𝐃 ★彡 𝐇𝐃 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐫...", m);
 				} catch (er) {
 					error = true;
 				} finally {

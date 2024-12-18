@@ -217,7 +217,7 @@ NB: _YOU ENABLE IT BY TYPING :EXAMPLE_= #on welcome etc
 _________________________
 🔰 *antilink* :_For automatic kicking of members who send gc links_ 
 _________________________
-🔰 *hidden*:_only ROMEK teams can use_📡
+🔰 *hidden*:_only ROMEK can use this_📡
 _________________________
 🔰  *autosticker* :_Automatically sends stickers if you send picture in gc_
 _________________________
@@ -244,8 +244,8 @@ _________________________
 _________________________
 🔰 *autobio* : _enables  automatic bio of the bot also you will see that bot is running through this_
 _________________________
-__R_O_M_E_K_____BOT
-*ROMEK-XD-BOT* enc-x
+__R_O_M_E_K_X__D___BOT
+*×͜× 𝚁𝙾𝙼𝙴𝙺-𝚇𝙳* enc-x
 ╰──────────©
 *📌 Example :*
 *${usedPrefix}on* welcome

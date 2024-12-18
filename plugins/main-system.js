@@ -53,21 +53,21 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[who];
 
   try {
-    let repo_Data = await axios.get('https://api.github.com/repos/salmanytofficial/ROMEK-V2-MD');
+    let repo_Data = await axios.get('https://api.github.com/repos/Romeofaiz/ROEMK-XD-BOT');
     let { stargazers_count, forks, owner, created_at, html_url } = repo_Data.data;
 
     let infobt = `
-🔰 *I'm ROMEK-XD-BOT.* *A WhatsApp chuddy buddy bot with rich features* *Created By SALMAN AMAD and Abraham Dwamena*. 🔰
+🔰 *I'm ROEMK-XD.* *A WhatsApp Advanced bot with Rich Exciting features* *Created By Excel*. 🔰
 
- *❲❒❳ Stars:* ${stargazers_count} Stars ⭐
- *❲❒❳ Forks:* ${forks} Forks 🍴
- *❲❒❳ Author:* *ROMEK-XD* 😎
- *❲❒❳ Create:* ${created_at} 
- *❲❒❳ Repo:* ${html_url}
- *❲❒❳ Scan:* https://replit.com/@arohi-x-romek/ROMEK-XD-PAIR-CODE?=app
- *❲❒❳ Visit For Tutorial:* COMING SOON
+ *✪  Stars:* ⭐stars ${stargazers_count} 
+ *✪  Forks:* Forks 🍽 ${forks}  
+ *✪  Author:*EXCEL AMADI* 😎
+ *✪  Deploy:*${created_at} 
+ *✪  Repo:*  ${html_url}
+ *✪  Scan:*  https://replit.com/@HopeAmadi*/STAR-MD-V2-PAIR-CODE?s=app
+ *✪ Visit For Help:* https://wa.me/+919341378016
   
-🔰 *Created ʙʏ ROMEL XD* 🔰
+🔰 *ƈʀɛǟȶɛɖ ႦႸ· 尺ㄖ爪乇Ҝ-乂ᗪ ★·* 🔰
 
 *🕣 S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -77,7 +77,7 @@ let handler = async (m, { conn }) => {
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `;
 
-    conn.sendMessage(m.chat, { video: { url: "https://i.imgur.com/swmkDuq.mp4" }, caption: infobt, gifPlayback: true }, { quoted: m });
+    conn.sendMessage(m.chat, { video: { url: "https://telegra.ph/file/68ae6e04dc201a468df78.mp4" }, caption: infobt, gifPlayback: true }, { quoted: m });
   } catch (error) {
     console.error(error);
     throw 'Error fetching data from GitHub';

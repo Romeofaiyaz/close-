@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   ❒ Upload: ${data.result.publicDate}
   ❒ Link: ${args[0]}
   
-  ⊱─━⊱༻ROMEK-XD●༺⊰━─⊰`
+  ⊱─━⊱༻●༺⊰━─⊰`
 
 
   let vid = await fetch(gapi)

@@ -6,14 +6,14 @@ let handler = async (m, { conn }) => {
 
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`;
 
-  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg');
+  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './ROMEK.jpg');
   let user = global.db.data.users[who];
   let { exp, level, role } = global.db.data.users[who];
   let { min, xp } = xpRange(user.level, global.multiplier);
   let username = conn.getName(who);
 
   let crxp = exp - min
-  let customBackground  = './Assets/rankbg.jpg'
+  let customBackground  = './Assets/ROMEK.jpg'
   let requiredXpToLevelUp = xp
 
   const card = await new Canvacord.Rank()

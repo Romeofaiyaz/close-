@@ -1,7 +1,3 @@
-// Credit @Guru322
-// Credit Guru Sensei 
-//plugin from guru-bot 
-
 import pkg from '@whiskeysockets/baileys';
 const {
     WA_DEFAULT_EPHEMERAL

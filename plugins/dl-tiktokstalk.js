@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, args }) => {
 ▢ *👥followers:* ${res.followers}
 ▢ *🫂following:* ${res.following}
 ▢ *📌Desc:* ${res.desc}
-
+□ *👑𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 ×͜× 𝚁𝙾𝙼𝙴𝙺-𝚇𝙳
 ▢ *🔗 Link* : https://tiktok.com/${res.username}
 └────────────`
   await conn.sendFile(m.chat, res.profile, 'tt.png', txt, m)

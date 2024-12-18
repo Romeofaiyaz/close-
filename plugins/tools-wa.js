@@ -10,14 +10,14 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
     throw `Please provide a number, quote a user, or mention a user`;
   }
   const waLink = `https://wa.me/${waLin}`;
-  const message = `*WhatsApp Link:*\n${waLink}`;
+  const message = `> ROMEK-XD-*WhatsApp Link:*\n${waLink}`;
 
   conn.sendMessage(m.chat, { text: message, quoted: m, contextInfo: { mentionedJid: [m.sender] } });
 
   m.react('✅');
 }
 
-handler.help = ['mee,wa'];
+handler.help = ['wa'];
 handler.tags = ['tools'];
 handler.command = ['wa'];
 
