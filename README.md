@@ -171,3 +171,16 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 .
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=70&pause=1000&color=FF0000&center=true&width=950&height=100&lines=;%20𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗%20𝗕𝗬%20𝗥𝗢𝗠𝗘𝗞%20𝗫𝗗)
 <p align="center">
+
+
+
+[![Contributors over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=PikaBotz/Anya_v2-MD)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=PikaBotz/Anya_v2-MD)
+
+</div>
+</details>
+
+### Credits to:
+- [FortunaMokaya](https://github.com/Fortunatusmokaya) for the founder of this bot's base
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
